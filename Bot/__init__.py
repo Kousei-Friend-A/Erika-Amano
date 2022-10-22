@@ -11,13 +11,13 @@ LOG.setLevel(level=logging.INFO)
 #<-----------Variables-------------->
 LOG.info('❤️ Checking Bot Variables.....')
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'your bot token') #BOT Token Add
-API_ID = int(os.environ.get('API_ID', 456789)) #Telgram Api id
-APP_HASH = os.environ.get('APP_HASH', 'your api id')# Telgram App hash  
-OWNER_ID = int(os.environ.get('OWNER_ID', 953362604))
-MONGO_DB = os.environ.get("MONGO_DB", 'your mongodb') #MONGO DB FOR ANIME DATA
-FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -100456789013)
-BOT_NAME = os.environ.get('BOT_NAME', 'Soheru')
+BOT_TOKEN = "5698053647:AAGgW2ZOloLQEBYqTaL00TCA0VW-FQpytcg"
+API_ID = 17945796
+APP_HASH = "4a05481a5da2d66f801acffc4ca5ee4b"
+OWNER_ID = 5152809878
+MONGO_DB = "4a05481a5da2d66f801acffc4ca5ee4b"
+FILES_CHANNEL = -1001669683772
+BOT_NAME = "Ruka"
 #<---------------Connecting-------------->
 if BOT_TOKEN is not None:
     try:
